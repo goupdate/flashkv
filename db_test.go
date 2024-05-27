@@ -1,4 +1,4 @@
-package flashdb
+package flashkv
 
 import (
 	"os"
