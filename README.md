@@ -146,9 +146,4 @@ func (d *DB) Count() int
 
 Returns the number of key-value pairs in the database.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
 
