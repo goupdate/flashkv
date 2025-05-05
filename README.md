@@ -14,7 +14,7 @@ FlashKV is a simple and fast key-value database written in Go. It loads the enti
 To install FlashKV, you need to have Go installed. You can then use `go get` to install the package:
 
 ```sh
-go get github.com/yourusername/flashkv
+go get github.com/goupdate/flashkv
 ```
 
 ## Usage
@@ -27,11 +27,11 @@ package main
 import (
 	"fmt"
 	"log"
-	"simpledb"
+	"github.com/goupdate/flashkv"
 )
 
 func main() {
-	db := simpledb.New()
+	db := flashkv.New()
 
 	// Load data from a file
 	err := db.Load("data.db")
